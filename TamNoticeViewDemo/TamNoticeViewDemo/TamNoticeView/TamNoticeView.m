@@ -20,8 +20,8 @@ static const CGFloat margin = 20;//关闭按钮与内容间距
 @property(nonatomic,copy)NSString *title;
 @property(nonatomic,copy)NSString *content;
 
-@property(nonatomic,strong)UIView *contentView;
-@property(nonatomic,strong)UIButton *closeBtn;
+@property(nonatomic,weak)UIView *contentView;
+@property(nonatomic,weak)UIButton *closeBtn;
 
 @end
 
